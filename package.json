@@ -1,0 +1,22 @@
+{
+  "name": "QBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sjx1995/QBot.git",
+  "author": "Sunly <sunjingxiang1995@gmail.com>",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "canvas": "^2.8.0",
+    "dayjs": "^1.10.7",
+    "node-cron": "^3.0.0",
+    "oicq": "^1.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "prettier": "^2.4.1"
+  }
+}
